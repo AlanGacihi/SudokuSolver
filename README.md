@@ -1,7 +1,7 @@
 ## Introduction
 SudokuSolver is a web application that allows users to solve Sudoku puzzles. The application is built using the Django framework and is designed to be user-friendly and interactive. 
 
-![Screenshot](sudoku\static\sudoku\screenshot.jpg "Screenshot")
+![Screenshot](https://github.com/AlanGacihi/SudokuSolver/blob/master/sudoku/static/sudoku/screenshot.jpg "Screenshot")
 
 ## Features
 - Ability to solve any valid Sudoku puzzle
