@@ -1,0 +1,23 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sudoku Solver</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="icon" href="https://anysudokusolver.com/images/favicon.ico">
+        <link href="{% static 'sudoku/styles.css' %}" rel="stylesheet">
+        {% block head %}{% endblock %}
+    </head>
+    <body>
+        <header>
+            <div class="container p-2 max bg-green"><h1 class="text-center">Sudoku Solver</h1></div>
+        </header>
+        <main>
+           {% block body%}{% endblock %}
+        </main>
+        <footer class="small text-center text-muted">
+            &#169;vidosa
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,75 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#sudoku {
+    display: flex; 
+    justify-content: center; 
+    padding-top: 20px;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+
+.max {
+    width: 630px;
+}
+
+
+.bg-green{
+    background: #32CD32;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+input {
+    border: 0.5px solid #000;
+    height: 42px;
+    width: 42px;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+#b {
+    color: black; 
+    font-weight: 600;
+    background: #32CD32;
+    height: 28px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#buttons {
+    padding-top: 15px;
+    padding-left: 70px; 
+    padding-bottom: 20px;
+}
+
+#solving {
+    padding-top: 10px;
+    justify-content: center;
+    display: none;
+}
+

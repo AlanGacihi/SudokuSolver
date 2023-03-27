@@ -1,0 +1,18 @@
+{% extends "sudoku/layout.html" %}
+
+{% block body %}
+    {% if message %}
+    <div id="sudoku" class="text-danger"><h5>{{ message }}</h5></div>
+    {% else %}
+    <div class="container" id="sudoku">
+        {% load static %}
+            {% if output1 %}
+                <img src="{% static 'sudoku/output1.png' %}" alt="Solved">
+            {% else %}
+                 <img src="{% static 'sudoku/output.png' %}" alt="Solved">
+            {% endif %}
+    </div>
+    <div id="sudoku"><h5>Solved!</h5></div>
+    {% endif %}
+
+{% endblock %}
